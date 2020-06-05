@@ -1,0 +1,15 @@
+#1
+ed_df=data.frame("city"=c("Pune","Chennai","Bangalore"),"Temp"=c(35,42,29))
+ed_df
+#2
+ed_df[[2]][2]=48                 
+ed_df
+#3
+ed_df$humidity=c('55%','65%','45%')
+ed_df
+#4
+ed_df[4,]=c("coimbatore",37,"50%")
+ed_df
+#5
+ed_df[4,3]="NULL"
+ed_df

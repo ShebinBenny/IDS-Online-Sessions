@@ -1,0 +1,15 @@
+vec1<-c("Harish","Harsha","Datta")
+length(vec1)
+#rm(list=ls())
+typeof(vec1)
+attributes(vec1)
+names(vec1)
+names(vec1)=c("Stud1","Stud2","Stud3")
+names(vec1)
+vec1[1]
+vec1["Stud1"]
+x=c(12,32,45.6)
+y=c(12,6)
+x+y
+x1=c(12,32,45.6,7)
+x1+y
